@@ -11,7 +11,7 @@
     "url": "https://github.com/plouc"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": ">=4.4.0"
   },
   "dependencies": {
     "babel": "^5.8.12",

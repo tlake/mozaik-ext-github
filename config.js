@@ -7,11 +7,11 @@
 require('dotenv').load();
 
 
-const githubUser       = 'plouc';
-const githubRepository = 'plouc/mozaik';
+var githubUser       = 'plouc';
+var githubRepository = 'plouc/mozaik';
 
 
-const config = {
+var config = {
     env:  'prod',
 
     host:             '0.0.0.0',
@@ -94,4 +94,4 @@ const config = {
 };
 
 
-export default config;
+module.exports = config;

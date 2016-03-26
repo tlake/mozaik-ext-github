@@ -1,9 +1,9 @@
 require('babel/register')({
-    only: /node_modules\/mozaik[^/]*\/src/
+    only: [
+        /node_modules\/mozaik[^/]*\/src/,
+        /src\/server\.js/,
+        /config\.js/
+    ]
 });
 
-var mozaik = new (require('mozaik'))(require('./config'));
-
-mozaik.bus.registerApi('github', require('mozaik-ext-github/client'));
-
-mozaik.startServer();
+var mozaik = require('./src/server');

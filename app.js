@@ -1,9 +1,8 @@
-require('babel/register')({
+require('babel-register')({
     only: [
         /node_modules\/mozaik[^/]*\/src/,
-        /src\/server\.js/,
-        /config\.js/
+        /src\/server\.js/
     ]
 });
 
-var mozaik = require('./src/server');
+require('./src/server');

@@ -1,0 +1,28 @@
+{
+  "name": "Mozaïk GitHub dashboard",
+  "description": "A Mozaïk based GitHub dashboard",
+  "logo": "https://raw.githubusercontent.com/wiki/plouc/mozaik/assets/mozaik-logo-v2.png",
+  "keywords": ["node", "mozaik", "dashboard", "github"],
+  "env": {
+    "GITHUB_BASE_URL": {
+      "description": "The GitHub base url",
+      "value": "https://api.github.com"
+    },
+    "GITHUB_API_TOKEN": {
+      "description": "Your GitHub API token, not required, but API rate-limit can cause trouble",
+      "required": false
+    },
+    "GITHUB_USER": {
+      "description": "GitHub user id for the UserBadge",
+      "value": "plouc"
+    },
+    "GITHUB_REPO": {
+      "description": "GitHub repository",
+      "value": "plouc/mozaik"
+    },
+    "USE_SSL": {
+      "description": "Enable ssl",
+      "value": "true"
+    }
+  }
+}

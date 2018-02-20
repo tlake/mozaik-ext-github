@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import reactMixin                      from 'react-mixin';
 import { ListenerMixin }               from 'reflux';
-import Mozaik                          from 'mozaik/browser';
+import Mozaik                          from '@tlake/mozaik/browser';
 import StatusIcon                      from './StatusIcon.jsx';
 import StatusTimestamp                 from './StatusTimestamp.jsx';
 

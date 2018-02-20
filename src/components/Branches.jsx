@@ -3,7 +3,7 @@ import reactMixin                      from 'react-mixin';
 import { ListenerMixin }               from 'reflux';
 import _                               from 'lodash';
 import Branch                          from './Branch.jsx';
-import Mozaik                          from 'mozaik/browser';
+import Mozaik                          from '@tlake/mozaik/browser';
 
 
 class Branches extends Component {

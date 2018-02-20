@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import reactMixin                      from 'react-mixin';
 import { ListenerMixin }               from 'reflux';
 import PullRequest                     from './PullRequest.jsx';
-import Mozaik                          from 'mozaik/browser';
+import Mozaik                          from '@tlake/mozaik/browser';
 
 
 class PullRequests extends Component {

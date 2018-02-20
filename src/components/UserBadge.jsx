@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import reactMixin                      from 'react-mixin';
 import { ListenerMixin }               from 'reflux';
-import Mozaik                          from 'mozaik/browser';
+import Mozaik                          from '@tlake/mozaik/browser';
 
 
 class UserBadge extends Component {
